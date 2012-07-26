@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient_bg"
+    android:paddingBottom="10dip" >
+
+    <ImageView
+        android:id="@+id/img_camera"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dip" />
+
+    <Gallery
+        android:id="@+id/gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_camera"
+        android:spacing="5dip"/>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:background="@drawable/button_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="OK"
+        android:textSize="22sp"
+        android:textColor="@color/gradient_end"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_ok"
+        android:layout_below="@id/gallery"
+        android:layout_margin="10dip" >
+
+        <TextView
+            android:id="@+id/txt_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Share your answer?"
+            android:shadowColor="@color/black"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:paddingLeft="10dip"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/img_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/ic_twitter_selector" />
+
+        <Button
+            android:id="@+id/img_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/img_twitter"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/ic_facebook_selector" />
+    </RelativeLayout>
+
+</RelativeLayout>

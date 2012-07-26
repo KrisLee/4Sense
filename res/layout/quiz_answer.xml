@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient_bg"
+    android:paddingBottom="10dip" >
+
+    <RelativeLayout
+        android:id="@+id/rl_check"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_correct"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="70dip"
+        android:paddingLeft="5dip" >
+
+        <ImageView
+            android:id="@+id/avatar_gmes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dip"
+            android:src="@drawable/avatar_gmes" />
+
+        <TextView
+            android:id="@+id/txt_check_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toLeftOf="@id/avatar_gmes"
+            android:shadowColor="@color/black"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:text="You can verify the current pollution in your region using the air pollution map."
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_correct_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Correct answer!"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+       android:shadowColor="@color/black"
+            android:shadowDy="1"
+            android:shadowRadius="3" />
+
+    <TextView
+        android:id="@+id/txt_my_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_correct_answer"
+        android:layout_marginBottom="30dip"
+        android:layout_marginTop="5dip"
+        android:gravity="center"
+        android:text="The air in Frascati is more polluted than before."
+        android:textSize="24sp"
+        android:textColor="@color/orange" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_my_answer"
+        android:layout_margin="10dip" >
+
+        <TextView
+            android:id="@+id/txt_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Share your answer?"
+            android:shadowColor="@color/black"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:paddingLeft="10dip"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/img_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/ic_twitter_selector" />
+
+        <Button
+            android:id="@+id/img_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/img_twitter"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/ic_facebook_selector" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:background="@drawable/button_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="OK"
+        android:textSize="22sp"
+        android:textColor="@color/gradient_end"/>
+    
+</RelativeLayout>

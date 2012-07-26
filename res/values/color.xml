@@ -1,0 +1,11 @@
+
+    <resources>
+        <color name="gradient_start">#29235C</color>
+        <color name="gradient_end">#1F1A45</color>
+        <color name="orange">#F39200</color>
+        <color name="white">#FFFFFF</color>
+        <color name="transparent_orange">#A0F39200</color>
+        <color name="transparent_white">#A0FFFFFF</color>
+        <color name="semi_transparent">#C0000000</color>
+        <color name="black">#000000</color>
+    </resources>
