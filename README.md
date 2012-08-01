@@ -12,7 +12,7 @@
 It aims to increase the visibility of GMES services to the public and incorporate GMES services into the daily lives of people.
 At the same time, 4Sense is also aiming to retrieve user needs to GMES services providers for future improvement of these services.
 
-[4Sense screenshot](/res/raw/4sense_ss.png)
+[4Sense screenshot](https://raw.github.com/jcxavier/4Sense/master/res/raw/4sense_ss.png)
 
 #### How does it work?
 
@@ -29,7 +29,7 @@ Through this friendly competitive challenge, 4Sense tries to bridge the gap betw
 #### Sense
 People are the sensor and interact with the space sensors through a quiz. Questions are directly related to the user environment and use GMES products to provide the answer. For example:
 
-    "The air you are breathing now is more or less polluted than before?"
+"The air you are breathing now is more or less polluted than before?"
 
 We use the POLYPHEMUS air quality system and the WRF-model for meteorological simulation. services (WMS-T) available on the WDC-RSAT website using the localization to dynamically generate the request and get the answer.
 A good answer gives 2 Sentinels to the player. After that, the application displays a map with the air quality product where the player localization also appears.
@@ -87,7 +87,7 @@ Copyright [2012] [Ali Nadir Arslan, Dimitrios Damopoulos, João Xavier, Manuel G
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+   http://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
