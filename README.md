@@ -12,7 +12,7 @@
 It aims to increase the visibility of GMES services to the public and incorporate GMES services into the daily lives of people.
 At the same time, 4Sense is also aiming to retrieve user needs to GMES services providers for future improvement of these services.
 
-[4Sense screenshot](https://raw.github.com/jcxavier/4Sense/master/res/raw/4sense_ss.png)
+![4Sense screenshot](https://raw.github.com/jcxavier/4Sense/master/res/raw/4sense_ss.png)
 
 #### How does it work?
 
